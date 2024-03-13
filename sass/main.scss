@@ -1,0 +1,38 @@
+// base
+@import'base/resets';
+@import'base/body';
+@import'base/section';
+@import'base/container';
+
+// utils
+@import'utils/variables';
+@import'utils/visually-hidden';
+@import'utils/mixins';
+@import'utils/placeholders';
+
+// components
+@import'components/navigation';
+@import'components/header';
+@import'components/logo';
+@import'components/header-group';
+@import'components/header-icon';
+@import'components/hero';
+@import'components/modal-button';
+@import'components/modal-form';
+@import'components/our-activity';
+@import'components/our-activity-images';
+@import'components/team';
+@import'components/regular-costumers';
+@import'components/footer';
+@import'components/footer-icons';
+@import'components/footer-form';
+// portfolio components
+@import'components/portfolio';
+@import'components/filter-saction';
+@import'components/portfolio-items';
+@import'components/portfolio-animation';
+// ++++++++++
+// @import'components/modal-form-plus';
+
+
+

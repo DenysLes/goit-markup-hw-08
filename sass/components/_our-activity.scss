@@ -1,0 +1,138 @@
+.our-activity {
+    background: var(--main-bg-color);
+    padding-top: 94px;
+}
+
+/* Our activity social icons */
+.our-activity-icon-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 1170px;
+}
+
+.our-activity__icon-blok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    margin-bottom: 30px;
+
+    fill: #212121;
+}
+
+/* ================== */
+.our-activity__list {
+    display: flex;
+}
+
+&:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-activity__detail-item {
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.our-activity__detail-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+}
+
+.our-activity__punctuality-item {
+    width: 270px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.our-activity__punctuality-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 270px;
+    height: 48px;
+    flex-shrink: 0;
+
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+}
+
+.our-activity__diligence-item {
+    width: 270px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.our-activity__diligence-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 270px;
+    height: 48px;
+    flex-shrink: 0;
+
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+}
+
+.our-activity__technologie-item {
+    font-size: 14px;
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.our-activity__technologies-text {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 270px;
+    height: 72px;
+
+    color: var(--secondary-text-color);
+    letter-spacing: 0.42px;
+}
+
+.our-activity-images__title {
+    font-family: var(--main-font);
+    text-align: center;
+
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+
+    margin-bottom: 50px;
+}
