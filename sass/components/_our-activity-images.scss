@@ -13,6 +13,12 @@
 &:last-child {
     margin-right: 0px;
 }
+   @media screen and (min-width: 768px) {
+       .our-activity__img-box {
+           display: none;
+       }
+    }
+
 
 .our-activity-images__label {
     z-index: 1;
