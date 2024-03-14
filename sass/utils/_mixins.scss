@@ -3,6 +3,12 @@ $mobile:48opx;
 $tablet:768px;
 $destop:1200px;
 
+// @include mobile {
+//  padding-bottom: 60px;
+// }
+
+
+
 @if $type--'mobile-only'{
 @media screen and (max-width:#{$tablet-0.02}){
     @content;
