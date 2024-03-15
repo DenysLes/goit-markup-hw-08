@@ -21,6 +21,7 @@
 &:last-child {
     margin-right: 0;
  }
+
 }
 
 
@@ -28,6 +29,12 @@
     align-items: center;
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.regular-costumers__icon-link:hover &,
+.regular-costumers-icon-link:focus & {
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+        fill: var(--accent-color);
+    }
 }
 
 .regular-costumers__icon-link {
@@ -45,12 +52,7 @@
             border: 1px solid var(--accent-color);
             border-radius: 4px;
         }
-.regular-costumers__icon-link:hover &,
-.regular-costumers-icon-link:focus & {
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    fill: var(--accent-color);
- }
+
 }
 
 .regular-customers__titel {

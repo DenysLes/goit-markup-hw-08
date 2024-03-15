@@ -41,6 +41,28 @@ body {
   margin-right: auto;
 }
 
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-bg-color: #fff;
+  --secondary-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .navigation-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,6 +1074,11 @@ path {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.regular-costumers__icon-link:hover .regular-costumers__icon, .regular-costumers-icon-link:focus .regular-costumers__icon {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  fill: var(--accent-color);
+}
 
 .regular-costumers__icon-link {
   display: -webkit-box;
@@ -1073,11 +1100,6 @@ path {
 .regular-costumers__icon-link:hover, .regular-costumers__icon-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-}
-.regular-costumers__icon-link:hover .regular-costumers__icon-link, .regular-costumers-icon-link:focus .regular-costumers__icon-link {
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  fill: var(--accent-color);
 }
 
 .regular-customers__titel {
@@ -1603,7 +1625,9 @@ path {
   height: 168px;
   background-color: rgba(33, 150, 243, 0.9);
 }
-.portfolio-card__description-text:hover .portfolio-card__description, .portfolio-card__description-text:focus .portfolio-card__description {
+
+.portfolio-card__item-link:hover .portfolio-card__description,
+.portfolio-card__item-link :focus .portfolio-card__description {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;

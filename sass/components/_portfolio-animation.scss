@@ -26,7 +26,6 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: rgba(33, 150, 243, 0.9);
 }
-
 .portfolio-card__description-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -38,11 +37,12 @@
     width: 322px;
     height: 168px;
     background-color: rgba(33, 150, 243, 0.9);
-    &:hover .portfolio-card__description,
-        &:focus .portfolio-card__description {
-            transform: translateY(0);
-            opacity: 1;
-            visibility: 1;
-        }
+ 
 }
+ .portfolio-card__item-link:hover .portfolio-card__description,
+   .portfolio-card__item-link :focus .portfolio-card__description {
+       transform: translateY(0);
+       opacity: 1;
+       visibility: 1;
+   }
 
