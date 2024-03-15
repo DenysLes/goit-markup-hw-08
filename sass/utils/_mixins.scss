@@ -1,5 +1,5 @@
 @mixin mq($type){
-$mobile:48opx;
+$mobile:480px;
 $tablet:768px;
 $destop:1200px;
 
@@ -78,6 +78,7 @@ $destop:1200px;
 /* .gallery .item:last-child {
   margin-right: 0;
 } */
+
 /* grid items */
 .grid-item {
    --items: 1;

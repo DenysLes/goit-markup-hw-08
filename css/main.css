@@ -180,7 +180,6 @@ body {
 .header__group-link {
   margin-right: 50px;
 }
-
 .header__group-link:last-child {
   margin-right: 0;
 }
@@ -217,7 +216,6 @@ body {
 .header__group-link {
   margin-right: 50px;
 }
-
 .header__group-link:last-child {
   margin-right: 0;
 }
@@ -229,6 +227,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+.header__link-mail-mail:hover, .header__link-mail-mail:focus {
+  color: var(--accent-color);
+}
 
 .header__link-phone {
   text-decoration: none;
@@ -237,14 +238,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-
-.header__link-mail:hover,
-.header__link-mail:focus {
-  color: var(--accent-color);
-}
-
-.header__link-phone:hover,
-.header__link-phone:focus {
+.header__link-phone-phone:hover, .header__link-phone-phone:focus {
   color: var(--accent-color);
 }
 
@@ -275,6 +269,11 @@ body {
 .header__link-phone:hover .header__icon,
 .header__link-phone:focus .header__icon {
   fill: var(--accent-color);
+}
+
+.header__link:hover,
+.header__link:focus {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -725,10 +724,10 @@ path {
   display: flex;
 }
 
-.our-activity__item {
+.our-activity__items {
   margin-right: 30px;
 }
-.our-activity__item:last-child {
+.our-activity__items:last-child {
   margin-right: 0;
 }
 
