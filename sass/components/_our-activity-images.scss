@@ -2,22 +2,18 @@
     display: flex;
     justify-content: center;
 }
-
-.our-activity-images__img-box {
+ .our-activity-images__img-box{
     z-index: 1;
     position: relative;
 
     margin-right: 30px;
 }
 
-&:last-child {
+
+.our-activity-images__img-box:last-child {
     margin-right: 0px;
 }
-   @media screen and (min-width: 768px) {
-       .our-activity__img-box {
-           display: none;
-       }
-    }
+
 
 
 .our-activity-images__label {

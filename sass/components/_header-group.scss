@@ -64,11 +64,11 @@
     color: var(--secondary-text-color);
 }
 
-&-mail:hover,
+.header__link-mail:hover,
 .header__link-mail:focus {
     color: var(--accent-color);
 }
-&-phone:hover,
+.header__link-phone:hover,
 .header__link-phone:focus {
     color: var(--accent-color);
 }

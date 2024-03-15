@@ -10,11 +10,12 @@
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 1px;
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
-&:last-child {
-    margin-right: 0;
-}
+
 
 .filter-button {
     font-family: var(--main-font);
@@ -33,15 +34,14 @@
     padding-left: 22px;
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&:hover,
-&:focus {
-    background: var(--accent-color);
-    color: #fff;
-
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
-        0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    &:hover,
+        &:focus {
+            background: var(--accent-color);
+            color: #fff;
+    
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+                0 3px 1px 0 rgba(0, 0, 0, 0.1);
+        }
 }
 
 .filter-button--accent {
@@ -63,13 +63,11 @@
     padding-left: 25px;
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&:hover,
-&:focus {
-    background: var(--accent-color);
-    color: #fff;
-
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    &:hover,
+        &:focus {
+            background: var(--accent-color);
+            color: #fff;
+ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
         0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
+ }

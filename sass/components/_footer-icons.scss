@@ -20,11 +20,12 @@
 
 .footer-link__footer-social-link-item {
     margin-right: 10px;
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
-&:last-child {
-    margin-right: 0;
-}
+
 
 .footer-link__footer-social-link {
     display: flex;
@@ -36,12 +37,13 @@
     border-radius: 50%;
 
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
-&:hover,
-&:focus {
-    background-color: var(--accent-color);
-}
+
 
 .footer-link__footer-social-icon {
     fill: white;

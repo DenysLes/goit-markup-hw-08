@@ -74,8 +74,8 @@
 .modal-btn:focus {
   border-color: var(--accent-color);
 } */
-&:hover path,
-&:focus path {
+.modal-btn:hover path,
+.modal-btn:focus path {
     fill: var(--accent-color);
 }
 
