@@ -1028,19 +1028,20 @@ path {
   -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-link__social-link:hover .team-social-link__social-link .team-social-link__social-link:focus .team-social-link__social-link {
-  fill: #fff;
-}
 
 .team-social-link__social-link:hover,
 .team-social-link__social-link:focus {
   background-color: var(--accent-color);
+  fill: #fff;
 }
 
 .team-social-link__members-icon {
   fill: #afb1b8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social-link__social-link:hover .team-social-link__members-icon, .team-social-link__social-link:focus .team-social-link__members-icon {
+  fill: #fff;
 }
 
 .regular-customers {
