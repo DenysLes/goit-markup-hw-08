@@ -1,11 +1,13 @@
 .our-activity {
     @media screen and (min-width:480px) {
         background: var(--main-bg-color);
-        padding-top: 60pSx;
+        padding-top: 60px;
+   
         }
 @media screen and (min-width:768px) {
      background: var(--main-bg-color);
     padding-top: 60px;
+
     }
 @media screen and (min-width:1200px) {
     background: var(--main-bg-color);
@@ -117,13 +119,12 @@ margin-bottom: 0;
       }
   }
 .our-activity__items:nth-child(4) {
- @media screen and (min-width:768px) {
-margin-bottom: 0;
+@media screen and (min-width:768px) {
+ margin-bottom: 0;
  }
 }
-
 .our-activity__detail-item {
- @media screen and (min-width:480px) {
+  @media screen and (min-width:480px) {
 
   display: flex;
 justify-content: center;
