@@ -739,6 +739,18 @@ path {
             justify-content: center;
   }
 }
+@media screen and (min-width: 480px) and (min-width: 768px) {
+  .our-activity-icon-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .our-activity__icon-blok {
@@ -758,6 +770,64 @@ path {
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 768px) {
+  .our-activity__icon-blok {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 4px;
+    width: 354px;
+    height: 120px;
+    background: #f5f4fa;
+    margin-bottom: 30px;
+    fill: #212121;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-activity__list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 738px;
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-activity__items {
+    width: 354px;
+    height: 224px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .our-activity__items:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-activity__items:nth-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-activity__items:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .our-activity__detail-item {
@@ -768,6 +838,23 @@ path {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-activity__detail-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 16px;
     font-size: 14px;
     font-weight: 700;
@@ -801,10 +888,29 @@ path {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    text-align: center;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-activity__punctuality-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 16px;
     font-size: 14px;
     font-weight: 700;
@@ -851,6 +957,23 @@ path {
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 768px) {
+  .our-activity__diligence-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .our-activity__diligence-text {
@@ -879,6 +1002,23 @@ path {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-activity__technologie-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 16px;
     font-size: 14px;
     font-weight: 700;
