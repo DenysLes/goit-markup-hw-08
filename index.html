@@ -26,13 +26,31 @@
   </head>
   <body>
     <!-- Header -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <a class="logo" href="./index.html"
           ><span class="logo-accent">Web</span>Studio</a
         >
         <nav class="navigation">
-          <ul class="navigation-list">
+          <button
+            class="mobile-btn is-open"
+            data-menu-button
+            type="button"
+            aria-expanded="false"
+          >
+            <svg width="40" height="40" aria-label="Перемикач меню">
+              <use
+                class="icon-cross"
+                href="./images/sprite3.svg#icon-cross-close"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/sprite3.svg#icon-menu"
+              ></use>
+            </svg>
+          </button>
+
+          <!-- <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link-nav-accent" href="./index.html"
                 >Студія</a
@@ -46,10 +64,10 @@
             <li class="navigation-item">
               <a class="navigation-link-nav" href="#">Контакти</a>
             </li>
-          </ul>
+          </ul> -->
         </nav>
 
-        <ul class="header__list-contact">
+        <!-- <ul class="header__list-contact">
           <li class="header__group-link">
             <a
               class="header__link-mail header__link"
@@ -78,9 +96,10 @@
               +38 (096) 111-11-11
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
-    </header> -->
+    </header>
+
     <!-- Main content -->
 
     <main>
@@ -894,22 +913,7 @@
     </footer> -->
 
     <!-- Mobile-menu -->
-    <div class="mobile-menu">
-      <button class="mobile-btn" type="button">
-        <svg
-          width="40"
-          height="40"
-          viewBox="0 0 40 40"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z"
-            fill="#212121"
-          />
-        </svg>
-      </button>
-
+    <!-- <div class="mobile-menu">
       <ul class="mobile-menu__nav">
         <li class="mobile-menu__nav-item">
           <a href="" class="mobile-menu__nav-link-accent">Студія</a>
@@ -949,11 +953,11 @@
           <a href="" class="mobile-menu__social-link">LinkedIn</a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
     <!-- nobile-script -->
 
-    <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
