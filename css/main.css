@@ -114,7 +114,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    position: relative;
   }
 }
 
@@ -153,9 +152,11 @@ body {
     display: none;
     position: absolute;
     padding: 15px;
+    margin: 15px;
     width: 300px;
+    border-radius: 10px;
     top: 100%;
-    right: 75px;
+    right: 55px;
     height: 600px;
     background-color: goldenrod;
     text-align: center;
@@ -172,6 +173,10 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.naigation {
+  position: relative;
 }
 
 .logo {
