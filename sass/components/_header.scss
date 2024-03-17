@@ -13,6 +13,8 @@
 display: flex;
 align-items: center;
 justify-content: space-between;
+
+position: relative;
  }
 }
  .mobile-btn{
@@ -61,5 +63,27 @@ display: block;
  }
 }
 
+.menu{
+    @media screen and (max-width:#{768px-0.02}) {
+display: none;
 
+position: absolute;
+padding: 15px;
+width:300px;
+top: 100%;
+right: 75px;
+height: 600px;
+background-color: goldenrod;
+text-align: center;
+font-size: 30px;
+&.is-open {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    }
+}
+.naigation{
+
+}
             

@@ -37,6 +37,7 @@
             data-menu-button
             type="button"
             aria-expanded="false"
+            aria-controls="mobile-menu"
           >
             <svg width="40" height="40" aria-label="Перемикач меню">
               <use
@@ -49,7 +50,7 @@
               ></use>
             </svg>
           </button>
-
+          <div class="menu is-open" id="mobile-menu" data-menu>CONTENT</div>
           <!-- <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link-nav-accent" href="./index.html"
@@ -128,9 +129,11 @@
                 </svg>
               </button>
 
-               <form class="form">
-                <h3 class="form__titel">Залиште свої дані, ми вам передзвонимо</h3>
-               <div class="form__input-blok">
+              <form class="form">
+                <h3 class="form__titel">
+                  Залиште свої дані, ми вам передзвонимо
+                </h3>
+                <div class="form__input-blok">
                   <label class="form__label" for="name">Ім'я</label>
                   <input
                     class="form__input"
@@ -913,7 +916,7 @@
     </footer> -->
 
     <!-- Mobile-menu -->
-    <!-- <div class="mobile-menu">
+    <!-- <div class="mobile-menu" id="mobile-menu">
       <ul class="mobile-menu__nav">
         <li class="mobile-menu__nav-item">
           <a href="" class="mobile-menu__nav-link-accent">Студія</a>
