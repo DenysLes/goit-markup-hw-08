@@ -1659,24 +1659,26 @@ path {
   margin-right: 10px;
 }
 
-.menu-conteiner {
-  position: fixed;
-  z-index: 999;
-  top: 100%;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 80px;
-  background-color: var(--main-bg-color);
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-}
-.menu-conteiner.is-open {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+@media screen and (max-width: 767.98px) {
+  .menu-conteiner {
+    position: fixed;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    background-color: var(--main-bg-color);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .menu-conteiner.is-open {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 767.98px) {

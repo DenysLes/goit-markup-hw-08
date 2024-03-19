@@ -1,4 +1,5 @@
 .menu-conteiner {
+@media screen and (max-width:#{768px-0.02}) {
 position: fixed;
 z-index: 999;
 top:100%;
@@ -19,6 +20,7 @@ transform: translateX(100%);
 &.is-open {
 // display: block;
 transform: translateX(0);
+   }
  }
 }
 
