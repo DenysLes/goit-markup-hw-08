@@ -1,7 +1,5 @@
 .menu-conteiner {
-@media screen and (max-width:#{768px-0.02}) {
 position: fixed;
-z-index: 999;
 top:100%;
 left:0;
 width: 100vw;
@@ -22,18 +20,15 @@ transform: translateX(100%);
 transform: translateX(0);
    }
  }
-}
-
 // btn-toggle
 .menu-toggle{
-@media screen and (max-width:#{768px-0.02}) {
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
+display: inline-flex;
+margin: 0;
+padding: 0;
+border: none;
+background-color: transparent;
 }
- }
+ 
 //  .menu-toggle.close{
 // position: absolute;
 // top: 78px;

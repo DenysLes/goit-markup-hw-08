@@ -1659,38 +1659,33 @@ path {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 767.98px) {
-  .menu-conteiner {
-    position: fixed;
-    z-index: 999;
-    top: 100%;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 80px;
-    background-color: var(--main-bg-color);
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-  .menu-conteiner.is-open {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.menu-conteiner {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  background-color: var(--main-bg-color);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.menu-conteiner.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
-@media screen and (max-width: 767.98px) {
-  .menu-toggle {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-  }
+.menu-toggle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
 
 .menu__nav-link-accent {
