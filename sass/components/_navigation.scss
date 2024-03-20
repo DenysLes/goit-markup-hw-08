@@ -6,7 +6,7 @@ display: none;
   display: flex;
   align-items: center;
   list-style: none;
-  text-decoration: none;
+
  }
 }
 .navigation {
@@ -30,8 +30,6 @@ display: none;
  @media screen and (min-width:768px) {
  display: block;
  margin-right: 50px;
- text-decoration: none;
-
 // &:last-child {
 //  margin-right: 0;
  }
@@ -57,6 +55,7 @@ display: none;
  line-height: normal;
  letter-spacing: 0.28px;
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
 &::after {
  content: "";
 display: block;
@@ -86,9 +85,10 @@ padding-bottom: 32px;
  line-height: normal;
  letter-spacing: 0.28px;
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 &:hover,
-  &:focus {
-    @media screen and (min-width:768px) {
+&:focus {
+@media screen and (min-width:768px) {
       color: var(--accent-color);
     }
  }
@@ -99,5 +99,4 @@ color: var(--accent-color);
  }
 }
  
- } 
-}
+ 
