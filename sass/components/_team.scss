@@ -1,50 +1,46 @@
 .team {
-@media screen and (max-width:#{768px-0.02}) and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    }
- padding-top: 94px;
+background: var(--secondary-bg-color);
+padding-top: 94px;
+@media screen and  (min-width: 480px) {
+ padding-top: 60px;
+padding-bottom: 60px;
+ }
 }
-
- .team-name {
+.team-name {
 margin-bottom: 10px;
 }
-
- .team-proffesion {
+.team-proffesion {
  margin-bottom: 16px;
 }
-
- .team__title {
-@media screen and (max-width:#{768px-0.02}) and (min-width: 480px) {
-    text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.08px;
+.team__title {
+@media screen and (min-width: 480px) {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
     
-        margin-bottom: 50px;
-    }
-}
-
-
-.team__list {
-    display: flex;
-    justify-content: center;
-@media screen and (max-width:#{768px.02}) and (min-width: 480px) {
-     display: flex;
-     flex-direction: column;
-        justify-content: center;
-        align-items: center;
+margin-bottom: 50px;
  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+}
+.team__list {
+ display: flex;
+ justify-content: center;
 
-margin-bottom: 30px;
-  }
+ @media screen  and (min-width: 480px) {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+
+ @media screen and (min-width: 768px) {
+ width: 768px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ margin:-15px;
+ }
 }
 .team__team-members {
 @media screen and (min-width: 480px) {
@@ -69,7 +65,7 @@ background: #fff;
 
 margin: 15px; 
 
-width: calc((100% - 4*15px)/2) ;
+width: calc((100% - 2*30px)/2); 
  }    
 }
 
@@ -80,10 +76,6 @@ padding-top: 30px;
 
  .team__team-members:last-child {
 margin-right: 0;
-}
-
-.team {
-    background: var(--secondary-bg-color);
 }
 
 .team__product-designer-name {

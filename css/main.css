@@ -1445,9 +1445,10 @@ path {
 }
 
 .team {
+  background: var(--secondary-bg-color);
   padding-top: 94px;
 }
-@media screen and (max-width: 767.98px) and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1462,7 +1463,7 @@ path {
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: 767.98px) and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team__title {
     text-align: center;
     font-size: 36px;
@@ -1481,7 +1482,7 @@ path {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 768px 0.02) and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1506,13 +1507,11 @@ path {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: -15px;
   }
 }
 
@@ -1545,10 +1544,6 @@ path {
 
 .team__team-members:last-child {
   margin-right: 0;
-}
-
-.team {
-  background: var(--secondary-bg-color);
 }
 
 .team__product-designer-name {
@@ -1675,10 +1670,12 @@ path {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (max-width: 479.98px) {
+@media screen and (min-width: 480px) {
   .regular-customers {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1699,22 +1696,31 @@ path {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 480px;
-    margin: -30px;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .regular-customers__icon-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 768px;
+    margin: -15px;
   }
 }
 
-.regular-customers__item {
-  width: 170px;
-  height: 92px;
-  margin-right: 30px;
-}
-.regular-customers__item:last-child {
-  margin-right: 0;
-}
 @media screen and (min-width: 480px) {
   .regular-customers__item {
-    margin: 30px;
+    margin: 15px;
     width: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .regular-customers__item {
+    margin: 15px;
+    width: calc((100% - 90px) / 3);
   }
 }
 
