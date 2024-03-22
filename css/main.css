@@ -1544,9 +1544,6 @@ path {
     background: #fff;
     margin-bottom: 30px;
   }
-  .team__team-members:last-child {
-    margin-bottom: 0;
-  }
 }
 @media screen and (min-width: 768px) {
   .team__team-members {
