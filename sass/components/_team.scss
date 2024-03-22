@@ -80,6 +80,13 @@ border-radius: 0 0 4px 4px;
  width: calc((100% - 2*30px)/2); 
  }  
 }
+.team__img{
+@media screen and (min-width: 768px) {
+    display: block;
+width: 354px;
+height: 374px;
+ }
+}
 
 .team__team-members-info {
 padding-bottom: 30px;

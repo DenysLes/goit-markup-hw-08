@@ -1556,6 +1556,14 @@ path {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team__img {
+    display: block;
+    width: 354px;
+    height: 374px;
+  }
+}
+
 .team__team-members-info {
   padding-bottom: 30px;
   padding-top: 30px;
