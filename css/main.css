@@ -1518,12 +1518,15 @@ path {
 @media screen and (min-width: 480px) {
   .team__team-members {
     border-radius: 0 0 4px 4px;
-    margin: -15px;
+    margin-bottom: 30px;
     width: 270px;
     -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
             box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
     margin-bottom: 30px;
+  }
+  .team__team-members:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1540,10 +1543,6 @@ path {
 .team__team-members-info {
   padding-bottom: 30px;
   padding-top: 30px;
-}
-
-.team__team-members:last-child {
-  margin-right: 0;
 }
 
 .team__product-designer-name {
