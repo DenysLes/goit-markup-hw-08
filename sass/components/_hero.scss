@@ -35,11 +35,21 @@ url(../images/Hero/img\ overlay768px.jpg);
  margin-top: auto;
  margin-bottom: auto;
   }
+@media screen and (min-width: 1200px) {
+width: 1200px;
+ height: 600px;
+background-image: url(../images/Hero/bg-hero.jpg),
+    url(../images/Hero/Img\ Overlay.jpg);
+background-color: var(--dark-bg-color);
+padding-top: 200px;
+padding-bottom: 200px;
+    
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+  }
  }
-//   @media screen and (min-width: 768px) {
-// background-image: url(../images/Hero/Header\ img768px.jpg)
-// }
-
 
 .hero-container{
     display: flex;
@@ -53,13 +63,21 @@ width: 480px;
 @media screen and (min-width: 768px) {
 width: 768px;
 display: flex;
-flex-direction: column;
 flex-wrap: wrap;
+flex-direction: column;
 align-items: center;
 justify-content: center;
  }
+@media screen and (min-width: 1200px) {
+width: 1200px;
+padding-bottom: 30px;
+display: block;
+//  flex-direction: column;
+//  flex-wrap: nowrap;
+// align-items: center;
+// justify-content: center;
+ }
 }
-
 
 .hero__titel {
     @media screen and (min-width: 480px) {
@@ -90,6 +108,18 @@ text-align: center;
 color: #fff;
 margin-bottom: 30px;
  }
+  @media screen and (min-width: 1200px) {
+    width: 650px;
+font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+margin-bottom: 30px;
+  }
 }
     // width: 650px;
     // margin-left: auto;
@@ -130,6 +160,25 @@ background: var(--accent-color);
 color: #fff;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  }
+@media screen and (min-width: 1200px) {
+width: 216px;
+height: 50px;
+margin: 0 auto;
+display: block;
+text-align: center;
+border-radius: 4px;
+background: var(--accent-color);
+color: #fff;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+// font-family: var(--main-font);
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.875;
+//     letter-spacing: 0.06em;
+//     text-align: center;
+//     color: #fff;
+  }
 }
 // margin: 0 auto;
 // display: block;
