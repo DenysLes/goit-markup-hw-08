@@ -1,5 +1,9 @@
 .footer-icons {
-    margin-right: 93px;
+        @media screen and (min-width: 480px) {
+                margin-left: auto;
+                margin-right: auto;
+            }
+    // margin-right: 93px;
 }
 
 .footer-icons__link-title {

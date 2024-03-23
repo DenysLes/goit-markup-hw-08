@@ -1851,23 +1851,19 @@ path {
   }
 }
 
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: var(--dark-bg-color);
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--dark-bg-color);
+  }
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer-main-container {
-  margin-right: 70px;
+@media screen and (min-width: 480px) {
+  .footer-main-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .logo-footer {
@@ -1898,10 +1894,6 @@ path {
   margin-bottom: 9px;
 }
 
-.address__footer-contacts {
-  text-align: left;
-}
-
 .address__footer-item {
   margin-bottom: 9px;
 }
@@ -1929,8 +1921,11 @@ path {
   color: var(--accent-color);
 }
 
-.footer-icons {
-  margin-right: 93px;
+@media screen and (min-width: 480px) {
+  .footer-icons {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer-icons__link-title {
