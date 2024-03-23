@@ -577,6 +577,26 @@ body {
     margin-bottom: auto;
   }
 }
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+    height: 400px;
+    background-image: url(../images/Hero/Header\ img768px.jpg), url(../images/Hero/img\ overlay768px.jpg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
 
 .hero-container {
   display: -webkit-box;
@@ -597,6 +617,26 @@ body {
     height: 164px;
   }
 }
+@media screen and (min-width: 768px) {
+  .hero-container {
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .hero__titel {
@@ -611,10 +651,41 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__titel {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61538;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 480px) {
+  .hero__button {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: #fff;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+@media screen and (min-width: 768px) {
   .hero__button {
     width: 200px;
     height: 50px;
