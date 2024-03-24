@@ -1,9 +1,10 @@
 .footer-icons {
-        @media screen and (min-width: 480px) {
-                margin-left: auto;
-                margin-right: auto;
-            }
-    // margin-right: 93px;
+@media screen and (min-width: 480px) {
+display: flex;
+flex-direction: column;
+margin-bottom: 60px;
+}
+// margin-right: 93px;
 }
 
 .footer-icons__link-title {
@@ -15,23 +16,29 @@
     color: #fff;
 
     margin-bottom: 20px;
+@media screen and (min-width: 480px) {
+margin-left: auto;
+margin-right: auto;
+ }
 }
 
-.footer-link__list {
+ .footer-link__list {
     display: flex;
     align-items: baseline;
+ @media screen and (min-width: 480px) {
+margin-left: auto;
+margin-right: auto;
+ }
 }
 
 .footer-link__footer-social-link-item {
-    margin-right: 10px;
-    &:last-child {
-            margin-right: 0;
-        }
+ margin-right: 10px;
+ &:last-child {
+margin-right: 0;
+ }
 }
 
-
-
-.footer-link__footer-social-link {
+ .footer-link__footer-social-link {
     display: flex;
     justify-content: center;
     align-items: center;
