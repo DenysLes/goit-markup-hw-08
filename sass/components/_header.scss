@@ -1,18 +1,17 @@
 .header {
 @media screen and (min-width: 480px) {
 width: 100%;    
- box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 background-color: var(--main-bg-color);
-// border-bottom: 1px solid #ececec;
+ border-bottom: 1px solid #ececec;
  }
 @media screen and (min-width: 768px) {
 width: 100%;
-box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+border-bottom: 1px solid #ececec;
 background-color: var(--main-bg-color);
  }
  @media screen and (min-width: 1200px) {
    width: 100%;
-   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+   border-bottom: 1px solid #ececec;
    background-color: var(--main-bg-color);
  }
 }
@@ -22,7 +21,7 @@ background-color: var(--main-bg-color);
  align-items: center;
   justify-content: space-between;
 }
-
+ 
 @media screen and (min-width: 768px) {
  width: 100%;
 display: flex;
@@ -41,6 +40,7 @@ padding-right: 15px;
  padding-right: 15px;
  }
 }
+
 
 
 
