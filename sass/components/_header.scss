@@ -1,5 +1,6 @@
 .header {
 @media screen and (min-width: 480px) {
+position: relative;
 width: 100%;    
 background-color: var(--main-bg-color);
  border-bottom: 1px solid #ececec;
@@ -39,6 +40,14 @@ padding-right: 15px;
   padding-left: 15px;
  padding-right: 15px;
  }
+}
+
+.navigation{
+  @media screen  and (min-width: 480px) {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  } 
 }
 
 
