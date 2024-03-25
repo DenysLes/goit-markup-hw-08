@@ -5,6 +5,7 @@ flex-direction: column;
 margin-bottom: 60px;
 }
  @media screen and (min-width: 1200px) {
+    display: block;
  margin-right: 93px;
 }
 }
@@ -23,8 +24,7 @@ margin-left: auto;
 margin-right: auto;
  }
  @media screen and (min-width: 1200px) {
-display: flex;
-justify-content: start;
+text-align: left;
 }
 }
 
