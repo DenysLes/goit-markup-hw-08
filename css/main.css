@@ -357,6 +357,11 @@ body {
     text-decoration: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__list-contact {
+    display: block;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .header__group-link {
