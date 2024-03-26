@@ -295,6 +295,11 @@ body {
     margin-bottom: 50px;
   }
 }
+@media screen and (min-width: 768px) {
+  .navigation {
+    margin-bottom: 0;
+  }
+}
 
 .logo {
   text-decoration: none;
