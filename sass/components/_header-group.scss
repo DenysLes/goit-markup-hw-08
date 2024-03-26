@@ -16,13 +16,20 @@ text-decoration: none;
 display: none;
 }
  @media screen and (min-width:768px) {
-// margin-right: 50px;
-
 margin-right: 0;
-&:not(:last-child) {margin-bottom: 10px;
+
+&:not(:last-child) {
+  display: block;
+margin-bottom: 10px;
  }
   }
+  @media screen and (min-width:1200px) {
+    &:not(:last-child) {
+      display: block;
+    margin-bottom: 0;
+     }
    }
+  }
 
 .header__link-mail {
 @media screen and (min-width: 480px) {
@@ -30,6 +37,7 @@ display: none;
 }
  @media screen and (min-width:768px) {
   text-decoration: none;
+  margin-right: 0;
 
  font-family: var(--main-font);
  font-weight: 500;
@@ -80,6 +88,7 @@ display: block;
 &:not(:last-child) {
   display: block;
 margin-right: 30px;
+
    }    
   }
  }    
@@ -95,7 +104,7 @@ margin-right: 30px;
  font-weight: 500;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
-margin-right: 30px;
+
 
 &-mail:hover,
 &-mail:focus {
@@ -109,6 +118,7 @@ color: var(--accent-color);
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  margin-right: 30px;
 
 
 &-mail:hover,

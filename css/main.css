@@ -292,7 +292,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .navigation {
-    margin-bottom: 5px;
+    margin-bottom: 50px;
   }
 }
 
@@ -359,7 +359,14 @@ body {
     margin-right: 0;
   }
   .header__group-link:not(:last-child) {
+    display: block;
     margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__group-link:not(:last-child) {
+    display: block;
+    margin-bottom: 0;
   }
 }
 
@@ -371,6 +378,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__link-mail {
     text-decoration: none;
+    margin-right: 0;
     font-family: var(--main-font);
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -455,7 +463,6 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    margin-right: 30px;
   }
   .header__link-mail-mail:hover, .header__link-mail-mail:focus {
     color: var(--accent-color);
@@ -468,6 +475,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    margin-right: 30px;
   }
   .header__link-mail-mail:hover, .header__link-mail-mail:focus {
     color: var(--accent-color);
