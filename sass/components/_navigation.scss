@@ -34,9 +34,9 @@ display: none;
 }
  @media screen and (min-width:768px) {
  display: block;
+ &:not(:last-child){
  margin-right: 50px;
-// &:last-child {
-//  margin-right: 0;
+  }
  }
 }
 .navigation-link-nav-accent {

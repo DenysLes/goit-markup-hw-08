@@ -155,6 +155,8 @@ body {
 @media screen and (min-width: 768px) {
   .navigation-item {
     display: block;
+  }
+  .navigation-item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -298,6 +300,8 @@ body {
 @media screen and (min-width: 768px) {
   .navigation {
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -362,6 +366,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__group-link {
     margin-right: 0;
+    margin-left: auto;
   }
   .header__group-link:not(:last-child) {
     display: block;

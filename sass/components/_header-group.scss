@@ -17,7 +17,7 @@ display: none;
 }
  @media screen and (min-width:768px) {
 margin-right: 0;
-
+margin-left: auto;
 &:not(:last-child) {
   display: block;
 margin-bottom: 10px;
