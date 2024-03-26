@@ -76,9 +76,9 @@ display: block;
   }
 .header__group-link {
 @media screen and (min-width: 1200px) {
-display:flex;
-align-items: center;
+display: block;
 &:not(:last-child) {
+  display: block;
 margin-right: 30px;
    }    
   }

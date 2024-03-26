@@ -21,6 +21,8 @@ url(../images/Hero/img\ overlay480px.jpg);
         justify-content: center;
         margin-top: auto;
         margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
  }
   @media screen and (min-width: 768px) {
 width: 768px;
@@ -29,12 +31,14 @@ background-image: url(../images/Hero/Header\ img768px.jpg),
 url(../images/Hero/img\ overlay768px.jpg);
 
  display: flex;
- flex-wrap: wrap;
+ flex-wrap: nowrap;
  align-items: center;
  justify-content: center;
  margin-top: auto;
  margin-bottom: auto;
-  }
+ margin-left: auto;
+margin-right: auto;
+}
 @media screen and (min-width: 1200px) {
 width: 1200px;
  height: 600px;
@@ -45,11 +49,29 @@ padding-top: 200px;
 padding-bottom: 200px;
     
 display: flex;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 align-items: center;
 justify-content: center;
+margin-left: auto;
+margin-right: auto;
   }
- }
+//   @media screen and (max-width:1200px) {
+//     width: 100%;
+//     height: 600px;
+//    background-image: url(../images/Hero/bg-hero.jpg),
+//        url(../images/Hero/Img\ Overlay.jpg);
+//    background-color: var(--dark-bg-color);
+//    padding-top: 200px;
+//    padding-bottom: 200px;
+       
+//    display: flex;
+//    flex-wrap: wrap;
+//    align-items: center;
+//    justify-content: center;
+//    margin-left: auto;
+// margin-right: auto;
+   }
+ 
 
 .hero-container{
     display: flex;
@@ -57,27 +79,32 @@ justify-content: center;
  align-items: center;
     justify-content: center;
 @media screen and (min-width: 480px) {
+    margin-left: auto;
+    margin-right: auto;
 width: 480px;
     height: 164px;
 }
 @media screen and (min-width: 768px) {
 width: 768px;
 display: flex;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 flex-direction: column;
 align-items: center;
 justify-content: center;
  }
 @media screen and (min-width: 1200px) {
-width: 1200px;
-padding-bottom: 30px;
-display: block;
-//  flex-direction: column;
-//  flex-wrap: nowrap;
-// align-items: center;
-// justify-content: center;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+ align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
  }
 }
+
 
 .hero__titel {
     @media screen and (min-width: 480px) {
@@ -121,21 +148,6 @@ font-family: "Roboto", sans-serif;
 margin-bottom: 30px;
   }
 }
-    // width: 650px;
-    // margin-left: auto;
-    // margin-right: auto;
-    // font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.36364;
-    // letter-spacing: 0.06em;
-    // text-transform: uppercase;
-    // text-align: center;
-
-    // color: #fff;
-    // text-align: center;
-    // font-family: var(--main-font);
-
-    // margin-bottom: 30px;
 
 .hero__button {
     @media screen and (min-width: 480px) {
