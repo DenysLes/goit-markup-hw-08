@@ -2187,6 +2187,14 @@ path {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .regular-customers__icon-list {
   display: -webkit-box;
