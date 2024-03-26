@@ -676,19 +676,7 @@ body {
 @media screen and (min-width: 1200px) {
   .hero-container {
     max-width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -774,8 +762,6 @@ body {
     width: 216px;
     height: 50px;
     margin: 0 auto;
-    display: block;
-    text-align: center;
     border-radius: 4px;
     background: var(--accent-color);
     color: #fff;
