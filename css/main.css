@@ -304,6 +304,11 @@ body {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .navigation {
+    margin-right: auto;
+  }
+}
 
 .logo {
   text-decoration: none;
@@ -625,25 +630,12 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1200px;
+    width: 1600px;
     height: 600px;
-    background-image: url(../images/Hero/bg-hero.jpg), url(../images/Hero/Img\ Overlay.jpg);
-    background-color: var(--dark-bg-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../images/Hero/Img\ Overlay.png), url(../images/Hero/bg-hero.jpg);
+    background-color: var(--dark-bg-color);
   }
 }
 
@@ -690,10 +682,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero-container {
-    max-width: 1200px;
+    width: 1200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 200px;
   }
 }
 
@@ -2248,8 +2241,9 @@ path {
 }
 
 @media screen and (min-width: 1200px) {
-  .regular-customers__item:not(:last-child) {
-    margin-right: 30px;
+  .regular-customers__item {
+    width: 170px;
+    height: 92px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -2342,7 +2336,7 @@ path {
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    width: 1200px;
+    width: 1600px;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--dark-bg-color);
@@ -2384,13 +2378,15 @@ path {
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
   }

@@ -50,9 +50,8 @@ display: flex;
 
  .regular-customers__item {
  @media screen and (min-width: 1200px) {
-    &:not(:last-child){
-margin-right:30px ;
- }
+width: 170px;
+height: 92px;
 }
 
  @media screen and (min-width: 480px) {
